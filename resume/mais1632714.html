@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      .container {
+        padding-left:20px;
+        padding-right:20px;
+        padding-top:20px;
+        background-color: gray;
+        height:400px;
+        border-radius:3px;
+        width:500px;
+      }
+      .show {
+        background-color:white;
+        height:20px;
+        padding-top:20px;
+        border-top-left-radius:5px;
+        border-top-right-radius:5px;
+      }
+
+      .total {
+        background-color:white;
+        height:20px;
+        padding-top:20px;
+        border-bottom-left-radius:5px;
+        border-bottom-right-radius:5px;
+      }
+
+      .btnno {
+        padding-top:20px;
+        width:50%;
+        float:left;
+      }
+
+      .btncal {
+        padding-top:20px;
+        width:50%;
+        float:left;
+      }
+
+      button {
+        width:50px;
+        height:50px;
+        border-radius: 5px;
+        background-color: #fff;
+        border: none;
+      }
+
+      button:hover {
+        background-color:#efefef;
+      }
+
+      button:active {
+        background-color:#515151;
+      }
+
+      .btncal button {
+        width:70px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="show" id="showno">
+
+      </div>
+      <div class="total" id="totalno">
+
+      </div>
+      <div class="btnno">
+        <button type="button" name="1" value="1">1</button>
+        <button type="button" name="2" value="2">2</button>
+        <button type="button" name="3" value="3">3</button>
+        <br><br>
+        <button type="button" name="4" value="4">4</button>
+        <button type="button" name="5" value="5">5</button>
+        <button type="button" name="6" value="6">6</button>
+
+        <br><br>
+        <button type="button" name="7" value="7">7</button>
+        <button type="button" name="8" value="8">8</button>
+        <button type="button" name="9" value="9">9</button>
+
+        <br><br>
+        <button type="button" name="0" value="0" style="width:160px">0</button>
+
+      </div>
+
+      <div class="btncal">
+        <button type="button" name="plus" value="+">+</button>
+        <button type="button" name="minus" value="-">-</button>
+        <button type="button" name="times" value="*">x</button>
+        <br><br>
+        <button type="button" name="equal" value="=" style="width:220px">=</button>
+    <br><br>
+    <button type="button" name="clear" value="clear" style="width:220px">CLEAR</button>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="1632714.js" charset="utf-8"></script>
+
+  </body>
+</html>
