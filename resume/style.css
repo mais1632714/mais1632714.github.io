@@ -1,0 +1,84 @@
+div
+{
+    border-radius: 2px;
+    }
+#header
+{
+    position: fixed;
+    height:60px;
+    width: 98%;
+    background-color: #CD5C5C;
+    margin-bottom: 10px
+    }s
+
+#edit1 {
+    float:left;
+	margin-left: 20px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+#email{
+    float:left;
+    margin-right: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+#contact
+{
+    margin-left:45%;
+    padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+    }
+
+a:hover {
+    font-weight: bold;
+}
+
+.edit2
+{
+    float: right;
+    margin-top: 50px;
+    padding-left:5px;
+    height: auto;
+    width: 99%;
+    background-color:#FFDAB9 ;
+    }
+#footer
+{
+    height:40px;
+    clear:both;
+    position: relative;
+    background-color: #CD5C5C;
+    }
+    
+h3
+{
+    text-decoration: underline;
+    }
+table
+{
+    border: 2px dashed black;
+    }
+td
+{
+    padding: 3px;
+    border: 2px solid #E88741;
+    }
+
+#edit3
+{
+    font-weight:bold;
+    }
+#table 
+{
+    font-weight:bold;
+    color: black ;
+    }
