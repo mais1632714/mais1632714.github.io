@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="vacc.css"/>
+
+    <title>Health Protection Centre</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>
+
+    	  $(document).ready(function(){
+             $("#show").click(function(){
+        $("p").toggle();
+      });
+    });
+    </script>
+
+  </head>
+  <body>
+    <div class="search">
+      <form>
+        <input class="input" type="text" placeholder="Search" name="search">
+        </form>
+      </div>
+<!-- Header and logo image -->
+<div class="header">
+  <img src="img/logo.PNG" alt="">
+</div>
+
+
+<marquee id="marquee">
+  Welcome To Health Protection Centre ********** We Care About Your Health
+</marquee>
+
+<div id="nav">
+  <ul id="menu">
+  <li class ="active"><a href="home.html">Home</a>
+  <li>Babies</a>
+  <ul>
+    <li><a>vaccination <br><hr>
+      <a href="vacc.html"></a></li>
+
+  </ul></li>
+  <li>Elderly</a>
+    <ul>
+        <li><a>Comman Diseases <br>
+          <a href="common.html"></a>
+
+    </ul>
+  </li>
+  <li>Obesity</a>
+    <ul>
+        <li><a>Causes <br>
+          <a href="causes.html"></a>
+          <li><a>Prevention <br><hr>
+            <a href="prevent.html"></a></li>
+
+    </ul></li>
+  <li>Genetic diseases</a>
+    <ul>
+        <li><a>Comman Diseases <br>
+          <a href="genetic.html"></a>
+          <li><a>Genetic Disorders <br>
+            <a href="disorders.html"></a>
+
+    </ul></li>
+  <li><a href="aboutus.html">About us</a></li>
+
+  <div class="main">
+  	<div class="content">
+  		<article class=" topcontent ">
+  			<header>
+  				<h2> <a href="#" title="first-post "> Vaccination </a></h2>
+  			</header>
+      	<content>
+  			<p> A vaccine is a biological preparation that improves immunity to a particular disease.
+            A vaccine typically contains an agent that resembles a disease-causing microorganism and is often made from weakened or
+            killed forms of the microbe, its toxins or one of its surface proteins.
+            The agent stimulates the body's immune system to recognize the agent as foreign, destroy it, and "remember"
+            it so that the immune system can more easily recognize and destroy any of these microorganisms that it later encounters. <br>
+            <br>
+          <h3>Vaccine Types</h3>
+There are several different types of vaccines. Each type is designed to teach your immune system how to fight off
+certain kinds of germs — and the serious diseases they cause. <br>
+<br>
+There are 4 main types of vaccines: <br>
+
+*Live-attenuated vaccines <br>
+*Inactivated vaccines <br>
+*Subunit, recombinant, polysaccharide, and conjugate vaccines <br>
+*Toxoid vaccines <br>
+
+<button id="show">Vaccinations for Infants and Children, Age 0–10 Years </button>
+<p class="hide">
+  <embed src="img/p.pdf" width="900" height="1000"></p> <br> <br>
+
+    <p id="show">
+    <p class="hide">
+Recommended Immunizations for Children from Birth Through 6 Years Old
+    <embed src="img/p2.pdf" width="900" height="1000"> <br> <br>
+
+  </article>
+
+
+         <div class="footer">
+           <a href="home.html" style="text-decoration:none;color:white"> Home </a> </br>
+            <font color="#FFFFFF">--------------------------------------------------<br />
+             &copy All rights reserved: health.center.com 2018 </font>
+          </div>
+  </body>

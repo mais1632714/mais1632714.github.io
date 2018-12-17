@@ -1,0 +1,123 @@
+body{
+  font-family: Arial 'lucidasans'
+    font-size:22px;
+    line-height :1.5;
+    text-align: left;
+  	background-color: #feb3f5;
+  	background-size:100%;
+  	margin:0;
+  	padding:0;
+  	width:100%;
+  	min-height:500px;
+  	overflow-x:hidden;
+  	padding-bottom:50px;
+    width: 100%;
+    height: 100%;
+  }
+
+#head ,h1
+{
+   float: center;
+    font-family: Arial 'lucidasans'
+    font-size:22px;
+}
+  a:visited{
+  	color:white;
+  }
+}
+.header{
+  background-image: url("logo.jpeg");
+  background-repeat:no-repeat ;
+	background-size:25% 100%;
+	background-position:25px;
+	width:60px;
+	height:40px;
+	margin:0;
+	padding:0;
+	position:fixed;
+	top:0px;
+	z-index:690	}
+}
+
+div#marquee{
+
+	width:100%;
+	height:30px;
+	color:white;
+	background-color:#0000CD;
+	display:block;
+	position:fixed;
+	top:55px;
+	z-index:590;
+	font-size:22px;
+	box-shadow:10px 10px 5px #888888;
+	font-weight:bold;
+	}
+  .search{
+    float: right;
+    width: 200px;
+    height: 100px;
+    padding: 2px;
+    margin: auto;
+
+  }
+  div.fadeout{
+  background-size: 100% 100%;
+  position:relative;
+  height:330px;
+  float:left;
+  width:500px;
+/*  margin left:50%;*/
+  background: url("slideshow-bg.png") repeat-x scroll left top transparent;
+  padding: 0px;
+  }
+  div.fadeout img {
+      position:absolute;
+      left:-10px;
+      float:none;
+      bottom:10px;
+      margin: 30px 0 10px 25px;
+      padding: -100px;
+      text-align:center;
+      border:0px;
+      }
+
+ #slider{
+  	position:relative;
+  	display:block;
+  	width:330px;
+  	min-height:900px;
+  	float:left;
+  	background-color:#dd05c2;
+  	z-index:590;
+  	border:1px solid grey;
+    margin-right:30px;
+  	margin-left:18px;
+  }
+  #slider p{
+    margin-left: 8%;
+    line-height :1.5;
+    font-size: 18px;
+
+  }
+  .body p{
+  font-size: 16;
+  font-family: Arial 'lucidasans'
+  }
+
+
+div.footer{
+	background-color: #990099;
+	height:80px;
+	width:1250px;
+	color:white;
+	text-align:center;
+	font-family:verdana;
+	font-size:18px;
+	text-decoration:none;
+	clear:both;
+	display:block;
+	margin: 0% 0% 0% 0.5%;
+	margin-bottom: auto;
+  border-radius: 5px;
+ }
