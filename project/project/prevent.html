@@ -1,0 +1,212 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="navigation.css">
+    <style>
+      body{
+     background-image: url("img/38.jpg");
+      }
+      #slideshow{
+        position:relative;
+        display:block;
+        width:330px;
+        min-height:200px;
+        float:right;
+        background-color:#dd05c2;
+        z-index:590;
+        border:1px solid grey;
+        margin-right:13px;
+        margin-left:10px;
+      }
+      .main{
+        line-height: 25px;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius : 5px;
+      }
+      .content{
+        width: 898px;
+        height: 1330px;
+        float: left;
+        padding-left: 10px;
+      }
+      .topcontent{
+        background: #fff;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius : 5px;
+        padding: 3% 5% ;
+        margin-top: 2%;
+        border: 5px;
+      }
+       /*  <!-- Creating social networks icon. --> */
+#social_Networks img{
+             width: 60px;
+             padding: 2px;
+             border: 0;
+             box-shadow: 0;
+             display: inline;
+    }
+  #social_Networks {
+           float:right;
+           margin-right:2px;
+           margin-top:0px
+           width:10px;
+           height:100px;
+ }
+
+    </style>
+  </head>
+  <body>
+    <div class="search">
+      <form>
+        <input class="input" type="text" placeholder="Search" name="search">
+        </form>
+      </div>
+  <!-- Header and logo image -->
+  <div class="header">
+  <img src="logo.jpeg" alt="" style="width: 200px; height: 200px; border-radius: 55px; padding: 3px;">
+  </div>
+
+
+  <marquee id="marquee">
+     Welcome To Health Protection Centre ********** We Care About Your Health
+  </marquee>
+
+  <div id="nav">
+  <ul id="menu">
+  <li class ="active"><a href="home.html">Home</a>
+  <li>Babies</a>
+  <ul>
+    <li><a>vaccination <br><hr>
+      <a href="vacc.html"></a></li>
+
+  </ul></li>
+  <li>Elderly</a>
+    <ul>
+        <li><a>Comman Diseases <br>
+          <a href="common.html"></a>
+
+    </ul>
+  </li>
+  <li>Obesity</a>
+    <ul>
+        <li><a>Causes <br>
+          <a href="causes.html"></a>
+          <li><a>Prevention <br><hr>
+            <a href="prevent.html"></a></li>
+
+    </ul></li>
+  <li>Genetic diseases</a>
+    <ul>
+        <li><a>Comman Diseases <br>
+          <a href="genetic.html"></a>
+          <li><a>Genetic Disorders <br>
+            <a href="disorders.html"></a>
+
+    </ul></li>
+  <li><a href="aboutus.html">About us</a></li>
+  </div>
+
+  <div class="main">
+    <div class="content">
+      <article class=" topcontent ">
+        <header>
+          <h1>  How to Prevent Obesity </h1>
+        </header>
+        <content>
+        <p>  Obesity is a chronic disease affecting more and more children, adolescents and adults:
+
+    <li>Obesity rates among children in the U.S. have doubled since 1980 and have tripled for adolescents</li>
+    <li>15% percent of children aged six to 19 are considered overweight Over 60 percent of adults are considered overweight or obese</li>  <br>
+        Healthcare professionals are seeing earlier onset of Type 2 diabetes (normally an adult-onset disease), cardiovascular disease and
+        obesity-related depression in children and adolescents. The longer a person is obese, the more significant obesity-related risk
+        factors become. Given the chronic diseases and conditions associated with obesity, and the fact that obesity is difficult to treat,
+        prevention is extremely important. <br> <br>
+
+        A primary reason that prevention of obesity is so vital in children is because the likelihood of obese becoming obese adults
+        is thought to increase from about 20 percent at four years of age to 80 percent by adolescence. <br>
+
+        </p>
+        <h2>Physical activity</h2>
+        <p>There is a clear link between physical inactivity and chronic disease and premature death.
+          Therefore, everyone should try to take part in appropriate levels of physical activity.
+          The risks of engaging in physical activity are low, but the risks of poor health resulting from inactivity are high.
+
+          The four UK Chief Medical Officer have issued recommendations as to the daily amount of physical activity people
+          should be participating in to help to maintain health.  </p> <br>
+
+          <h2>Food and nutrition</h2>
+          <p>Eating high fat, energy dense foods can create an over eating effect and contribute to overweight and obesity.
+          It is also recognised that evolving eating patterns have a key role to play, for example, there is more snacking
+          and greater dependence on processed and prepared foods. 'A Fitter Future for All' contains actions which will work
+         to redress our current eating habits and ensure that we can make healthier food choices.</p><br>
+
+         <h2>Childhood Obesity Campaign</h2>
+         <p>Tackling Childhood Obesity is a public health priority, with 1 in 4 children across the world now carrying excess weight.
+          Without action to reverse the trends we’re seeing in our own and our children’s weight and health, the next generation will be
+          beset with significant ill-health related to overweight and obesity, most of which is potentially preventable. <br>
+
+         With research indicating a demand for practical solutions but in small, achievable steps, the campaign messaging will focus on
+         six core actions for parents, on a phased, three-year basis:
+
+<li>understanding portion sizes for children</li>
+<li>how to manage treat foods like sweets, crisps and chocolate</li>
+<li>being more physically active</li>
+<li>replacing sugary drinks</li>
+<li>encouraging more sleep</li>
+</p> <br>
+<p>Our Centre provide many way for the patients who sever from obesity and people who want to prevent themself from obese.
+  professional staff can give the best way after diagnosis </p>
+
+      </content>
+        </article>
+        </div>
+        </div>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script>
+  $(function(){
+  $('.fadeout img:gt(0)').hide();
+  setInterval(function(){$('.fadeout :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadeout');}, 4000);
+  });
+  </script>
+
+  <div id="slideshow">
+  <div class="fadeout" id="add" align="center">
+  <img src="11.jpg" width="300" height="300"/>
+  <img src="12.jpg" width="300" height="300"/>
+  <img src="18.jpg" width="300" height="300"/>
+  <img src="19.jpg" width="300" height="300"/>
+  <img src="30.jpg" width="300" height="300"/>
+  <img src="24.jpg" width="300" height="300"/>
+  <img src="31.jpg" width="300" height="300"/>
+  <img src="26.jpg" width="300" height="300"/>
+  <img src="32.jpg" width="300" height="300"/>
+  <img src="14.jpg" width="300" height="300"/>
+  </div> </div> <br>
+ <!-- Facebook -->
+<div id="social_Networks">
+<a href="https://www.facebook.com/mais1632714"target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" style title="Facebook" /></a> <br/>
+
+<!-- Twitter -->
+<a href="https://twitter.com/ziaulhaq1m" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" style title="Twitter"/></a> <br/>
+
+<!-- Google Plus -->
+<a href="http://maishmidi6.blogspot.com/" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/google.png" alt="Google" style title="Google Plus" /></a> <br/>
+
+<!-- LinkedIn -->
+<a href="#" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" style title="LinkedIn" /></a> <br/>
+
+<!-- Email -->
+<a href="mailto:maishmidi6@gmail.com"><img src="http://www.simplesharebuttons.com/images/somacro/email.png" alt="Email" style title="Emial" /></a>
+</div>
+  <div class="footer">
+    <a href="home.html" style="text-decoration:none;color:white"> Home </a> <br>
+     <font color="#FFFFFF">--------------------------------------------------<br />
+      &copy All rights reserved: health.center.com 2018 </font>
+   </div>
+
+  </body>
